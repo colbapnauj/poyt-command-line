@@ -18,15 +18,15 @@ la aplicación.
 Me dí cuenta que 'mpv' puede reproducir desde una URL, con esto ya se avanzó bastante. Poder usar 'mpv' para reproducir (audio o video) una url desde la terminal. Simplemente, genial!.
 Pero, aún seguía usando el navegador para obtener la URL. Bueno, hace un tiempo gracias a Tiktok ví que se podía hacer un tipo de asistente por voz para la computadora.
 Algo falló al hacer ese proyecto (algo relacionado con el micrófono o los drivers de audio) entonces no se podía aproyechar usar la voz. Pero conocí pywhatkit de python.
-Pywhatkit trae playonyt entre otras herramientas. Playonyt hace la búsqueda en youtuve y te regresa el link del primer resultador (y lo abre en el navegador).
+Pywhatkit trae playonyt entre otras herramientas. Playonyt hace la búsqueda en youtuve y te regresa el link del primer resultado (y lo abre en el navegador).
 
 # Ahora si, al grano.
 Entonces, en este pequeño proyecto se omite la línea de Playonyt que abre el navegador.
 Se usa un bash script para organizar las ordenes.
 1. Se recibe el comando playonyt, que es un alias.
 2. Se puede agregar la opcion --video para mostrar el mismo, (por defecto reproduce solo audio).
-3. Finalmente el resto de los argumentos son tomados como 'a búsqueda que se quiere hacer'.
-4. Le agregué en el script una instrucción que agrega la fecha, argumento de búsqueda y la url que devolvió a un archivo .txt que será el historial.
+3. Finalmente el resto de los argumentos son tomados como 'la búsqueda que se quiere hacer'.
+4. Le agregué en el script una instrucción que agrega la fecha, argumento de búsqueda y la url que devolvió la búsquesda, esto se agrega a un archivo .txt que será el historial.
 
 # Finalmente
 Está bueno y puede estar mejor.
@@ -36,14 +36,15 @@ Gracias.
 
 
 // ![Alt text](relative/path/to/img.jpg?raw=true "Title")
-![Alt text](capturas-de-pantalla/2021-04-21-161004_1366x768_scrot.png?raw=true "Title")
-![Alt text](capturas-de-pantalla/2021-04-21-165525_1366x768_scrot.png?raw=true "Title")
-![Alt text](capturas-de-pantalla/2021-04-21-174046_1366x768_scrot.png?raw=true "Title")
-![Alt text](capturas-de-pantalla/2021-04-21-180040_1366x768_scrot.png?raw=true "Title")
-![Alt text](capturas-de-pantalla/2021-04-21-183929_1366x768_scrot.png?raw=true "Title")
-![Alt text](capturas-de-pantalla/2021-04-21-190918_1366x768_scrot.png?raw=true "Title")
-![Alt text](capturas-de-pantalla/2021-04-21-233111_1366x768_scrot.png?raw=true "Title")
+![Alt text](capturas-de-pantalla/2021-04-21-161004_1366x768_scrot.png?raw=true "Curwen")
+![Alt text](capturas-de-pantalla/2021-04-21-165525_1366x768_scrot.png?raw=true "Viendo Curwen y Moloko RedCast")
+![Alt text](capturas-de-pantalla/2021-04-21-174046_1366x768_scrot.png?raw=true "Aquí, busqué un video que mencionaron en Moloko")
+![Alt text](capturas-de-pantalla/2021-04-21-180040_1366x768_scrot.png?raw=true "Poniéndome al día con Sin Guión")
+![Alt text](capturas-de-pantalla/2021-04-21-183929_1366x768_scrot.png?raw=true "Más pruebas")
+![Alt text](capturas-de-pantalla/2021-04-21-190918_1366x768_scrot.png?raw=true "Algo de código")
+![Alt text](capturas-de-pantalla/2021-04-21-233111_1366x768_scrot.png?raw=true "Sigo usnándolo")
 
 
 # La ayuda
 Sobre mpv: https://www.reddit.com/r/linux/comments/35botl/tip_use_mpv_youtubedl_as_streaming_audio_player/
+youtube-dl es otro programa ímpresionante.
